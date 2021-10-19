@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anak - anak elemen</title>
+    <link rel="stylesheet" href="anak.css">
+</head>
+<body>
+    <h1>ANAK - ANAK ELEMEN</h1>
+    <table>
+        <tr>
+            <th >Bil</th>
+            <th>Nama</th>
+        </tr>
+        <tr class="tajuk"  >
+            <td colspan="2" >KATEGORI : REMAJA.</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Addul Rahman</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Abdul Rahim</td>
+        </tr>
+    </table>
+
+    <form action="simpan.php" method="post">
+        <label for="name">Nama</label>
+        <input type="text" name="nama" id ="nama">
+        <label for="kategori" >Kategori</label>
+        <select name="kategori" id="kategori">
+                <option value="D">Dewasa</option>
+                <option value="R">Remaja</option>
+        </select>
+        <button type="submit" title="Picit ler">SIMPAN</button>
+    </form>
+</body>
+</html>
